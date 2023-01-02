@@ -46,7 +46,7 @@ Users should be able to:
 
 ## Author
 
-- Website - [Laio Zago](https://www.github.io/laiozago)
+- Website - [Laio Zago](https://laiozago.github.io/laiozago)
 - Frontend Mentor - [@laiozago](https://www.frontendmentor.io/profile/laiozago)
 - Twitter - [@laiozago](https://www.twitter.com/laiozago)
 
