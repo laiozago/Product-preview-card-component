@@ -63,6 +63,7 @@ body {
     letter-spacing: .5em;
     font-size: 9px;
     color: var(--cor-neutra-dark-grayish-blue);
+    order: -1;
 }
 
 .card_titulo {
