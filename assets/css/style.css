@@ -8,6 +8,8 @@
 
     --font-family-montserrat: 'Montserrat', sans-serif;
     --font-family-fraunces: 'Fraunces', serif;
+
+    --raio-da-borda:.6em;
 }
 
 *{
@@ -36,7 +38,7 @@ body {
 
     background-color: var(--cor-neutra-white);
 
-    border-radius: .6em;
+    border-radius: var(--raio-da-borda);
 }
 
 .card_imagem {
@@ -47,7 +49,7 @@ body {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    border-radius: .6em .6em 0 0;
+    border-radius: var(--raio-da-borda) var(--raio-da-borda) 0 0;
 }
 
 .corpo {
@@ -111,7 +113,7 @@ body {
     color: var(--cor-neutra-white);
     background-color: var(--cor-primaria-dark-cyan);
     border: none;
-    border-radius: .6em;
+    border-radius: var(--raio-da-borda);
     width: 100%;
 }
 
@@ -127,7 +129,20 @@ body {
 }
 
 @media (min-width: 992px) {
+
     .card {
         flex-direction: row;
+        width: 50%;
+        height: 295.033px;
+        border-radius: .6em;
+    }
+
+    .card_imagem {
+        height: 100%;
+    }
+
+    .imagem {
+        border-radius: var(--raio-da-borda) 0 0 var(--raio-da-borda);
+        height: 295.033px;
     }
 }
