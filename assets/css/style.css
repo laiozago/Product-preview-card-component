@@ -114,3 +114,20 @@ body {
     border-radius: .6em;
     width: 100%;
 }
+
+.card_botao>button:hover {
+    background-color: rgb(49,62,45);
+    transition: .3s;
+    cursor: pointer;
+}
+
+.card_botao>button::before {
+    content: url(/assets/images/icon-cart.svg);
+    margin-right: 1em;
+}
+
+@media (min-width: 992px) {
+    .card {
+        flex-direction: row;
+    }
+}
